@@ -1,0 +1,41 @@
+.header {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Playfair Display", Georgia, serif;
+  }
+  
+  .header .logo {
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
+  
+  .header ul li {
+    list-style: none;
+    color: cornflowerblue;
+    margin: 0;
+    padding: 1rem 1rem;
+  }
+
+  .header ul li a:hover {
+    text-decoration: none;
+    color: crimson;
+  }
+
+  .header-count {
+    font-family: sans-serif;
+    color: crimson;
+    font-size: 15px;
+  }
+
+  .active {
+    color: crimson;
+  }
+
+  
+
+  /* .header ul li:hover {
+    background-color: #444;
+  } */
